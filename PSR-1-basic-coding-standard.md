@@ -358,7 +358,7 @@ InnoDB 存储引擎中，secondary index（非主键索引）中没有直接存�
 
 比如SELECT email,uid FROM user_email WHERE uid=xx，如果uid不是主键，适当时候可以将索引添加为index(uid,email)，以获得性能提升。
 
-### 3-3.UPDATE、DELETE语句不使用LIMIT。
+### 3-3.UPDATE、DELETE语句不使用LIMIT
 
 a) 可能导致主从数据不一致
 
