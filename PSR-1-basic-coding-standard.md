@@ -1,6 +1,6 @@
 一、基本代码规范
 ========
-[1]: http:https://github.com/yanggenxin/genxin_test/new/master/PSR-1-basic-coding-standard.md#1-1
+[1]: #1-1
 - 库名、表名、字段名`必须`使用小写字母，“_”分割。 [QA][1]
 - 库名、表名、字段名`必须`不超过12个字符。
 
